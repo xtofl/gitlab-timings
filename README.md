@@ -11,3 +11,7 @@ Browser extension to show gitlab build job timings
 4. If it didn't load or errored, you're screwed.  I currently can't help you.
 5. Visit a gitlab-ci build job url.
 6. Enjoy!  Be grateful!
+
+## Credits
+
+Based on the code in https://gitlab.com/gitlab-org/gitlab-ce/issues/14664#note_101427195.
