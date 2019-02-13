@@ -1,0 +1,19 @@
+{
+
+  "description": "Visualize hidden time lapses in gitlab build logs",
+  "manifest_version": 2,
+  "name": "GitLabTimings",
+  "version": "0.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/visualize-timings",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://gitlabinternal.softathome.com/*-/jobs/*"],
+      "js": ["jquery-3.3.1.min.js", "visualize_timings.js"]
+    }
+  ]
+
+}
