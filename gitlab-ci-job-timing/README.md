@@ -1,6 +1,8 @@
 # visualize timings
 
-https://gitlab.com/gitlab-org/gitlab-ce/issues/14664#note_101427195
+https://github.com/xtofl/gitlab-timings
+
+Based on the code in https://gitlab.com/gitlab-org/gitlab-ce/issues/14664#note_101427195.
 
 ## What it does
 
