@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["*://*/*-/jobs/*"],
-      "js": ["jquery-3.3.1.min.js", "visualize_timings.js"]
+      "js": ["jquery-3.7.0.slim.min.js", "visualize_timings.js"]
     }
   ]
 
